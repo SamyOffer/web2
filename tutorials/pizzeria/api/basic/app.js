@@ -16,7 +16,4 @@ app.use(cookieParser());
 app.use('/pizzas', pizzaRouter);
 app.use('/users', usersRouter);
 
-app.use(express.json());
-
-
 module.exports = app;
